@@ -2,5 +2,8 @@
    
     height: 48px;
     background-color: var( --cor-sucesso);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }

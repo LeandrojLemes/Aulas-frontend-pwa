@@ -2,7 +2,11 @@ import './Rodape.css';
 
 function Rodape(){
 
-   return <header className='rodape_root'>Rodapé</header>;
+   const anoAtual = new Date().getFullYear();
+
+   return <footer className='rodape_root'>
+      "Copyright © {anoAtual} - Todos os direitos reservados - Leandro Lemes."
+   </footer>;
 
 }
 
