@@ -1,4 +1,10 @@
-.principal_root{
+.principal_root {
 
-    background-color: var(--cor-secundaria);
+    background-color: var(--cor-primaria-clara);
+    padding: 16px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
 }

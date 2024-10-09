@@ -2,13 +2,13 @@ import Avatar from '../Avatar/Avatar';
 import './Cabecalho.css';
 
 
-function Cabecalho(){
+function Cabecalho() {
 
    return (<header className='cabecalho_root'>
-      <Avatar nome='Neymar'/> 
-
+      <img src='/public/vite.svg' height={40} />
+      <Avatar nome='Leandro Lemes' />
    </header>
-   )
+   );
 }
 
 export default Cabecalho;
