@@ -1,0 +1,14 @@
+.lista-produtos_item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: var(--cor-cinza);
+}
+
+.lista-produtos_cores {
+    display: flex;
+    justify-content: space-around;
+
+
+
+}
