@@ -23,23 +23,28 @@ body,
   --cor-primaria-clara: #81C784;
   --cor-primaria: #388E3C;
   --cor-primaria-escura: #388E3C;
- 
+
   --cor-secundaria-clara: #C1CC99;
   --cor-secundaria: #8B9474;
   --cor-secundaria-escura: #ff6d00;
- 
+
   --cor-fundo-padrao: #F5F5F5;
- 
+
   --cor-texto-padrao: #1c2025;
   --cor-texto-claro: #FFFFFF;
- 
+
   --cor-info: #0288d1;
   --cor-sucesso: #1aa251;
   --cor-aviso: #dea500;
   --cor-erro: #eb0014;
- 
+
   --cor-cinza: #99a7bb;
 
-  
- }
- 
+  --cor-verde-1: #13f932;
+  --cor-verde-2: #0ee626;
+  --cor-verde-3: #0ad219;
+  --cor-verde-4: #05bf0d;
+  --cor-verde-5: #00ab00;
+
+
+}

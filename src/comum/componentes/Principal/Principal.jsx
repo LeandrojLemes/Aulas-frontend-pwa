@@ -1,26 +1,15 @@
 import BotaoCustomizado from '../BotaoCustomizado/BotaoCustomizado';
 import './Principal.css'
 
-function Principal() {
+function Principal({ titulo, children }) {
 
-    return <main className='principal_root'>
-       <h1>Pincipal</h1>
-        <BotaoCustomizado cor='primaria' aoClicar={() => alert('Clicou no botão')}>
-            Botao Primário
-        </BotaoCustomizado>
+    return (
+        <main className='principal_root'>
+            <h1>{titulo}</h1>
+            {children}
 
-
-        <BotaoCustomizado cor='secundaria' aoClicar={() => alert('Clicou no botão')}>
-        Botao Secundário
-        </BotaoCustomizado>
-
-        
-        <BotaoCustomizado aoClicar={() => alert('Clicou no botão')}>
-        Botao Padrão
-        </BotaoCustomizado>
-
-    </main>;
-
+        </main>
+    );
 }
 
 export default Principal;

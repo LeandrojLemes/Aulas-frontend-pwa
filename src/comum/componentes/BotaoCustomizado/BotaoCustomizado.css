@@ -19,11 +19,11 @@
 }
 
 .botao-customizado_secundario {
-    background-color: var(--cor-secundaria);
+    background-color: var(--cor-secundaria-clara);
 
 }
 
 .botao-customizado_padrao {
-    background-color: var(--cor-secundaria-clara);
+    background-color: var(--cor-secundaria);
 
 }
